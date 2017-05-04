@@ -31,7 +31,7 @@ class SearchBar extends Component {
         return (
             <form onSubmit = {this.handleSubmit.bind(this)} className="input-group">
                 <input 
-                    placeholder = "Procurar ...."
+                    placeholder = "Procurar o tempo da cidade ..."
                     className= "form-control"        
                     value={this.state.term}
                     onChange= {this.handleChange.bind(this)} />
